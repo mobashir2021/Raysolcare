@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mobraysol.mobashshir.raysol.OTP"
+    android:orientation="vertical"
+    android:id="@+id/otpview">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/whraysolbiglogo" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/otpvalue"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:digits="0123456789"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter OTP"
+        android:inputType="phone"
+        android:maxLength="10" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Register"
+        android:onClick="verify"
+        android:id="@+id/otpregister"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+</LinearLayout>

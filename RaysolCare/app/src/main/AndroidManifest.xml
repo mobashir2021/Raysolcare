@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mobraysol.mobashshir.raysol"
+    android:versionCode="9"
+    android:versionName="9.0001">
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChooseServicesActivity" />
+        <activity android:name=".AcrepairActivity" />
+        <activity android:name=".AcrepairNextoneActivity" />
+        <activity android:name=".AcrepairWindowActivity" />
+        <activity android:name=".AcinstallationsplitActivity" />
+        <activity android:name=".AcinstallationWindowActivity" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".SubmitInfo" />
+        <activity android:name=".DateTime" />
+        <activity android:name=".GetLocation" />
+        <activity android:name=".Login" />
+        <activity android:name=".Register" />
+        <activity android:name=".OTP" />
+        <activity android:name=".Contact" />
+        <activity android:name=".RefrigeratorSingledoor" />
+        <activity android:name=".RefrigeratorDoubledoor" />
+        <activity android:name=".RefrigeratorCommercial" />
+        <activity android:name=".Refrigeratorrepairmain" />
+        <activity android:name=".WashingMachine" />
+        <activity android:name=".WaterCooler" />
+        <activity android:name=".AirCooler" />
+        <activity android:name=".MicroWave" />
+        <activity android:name=".AcInstallation" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".BookinghistoryActivity" />
+        <activity android:name=".MyprofileActivity" />
+        <activity android:name=".Contactus" />
+        <activity android:name=".MaintenanceActivity" />
+        <activity android:name=".myprofilelogin" />
+        <activity android:name=".myprofileedit" />
+        <activity android:name=".WaterheaterActivity"></activity>
+    </application>
+
+</manifest>

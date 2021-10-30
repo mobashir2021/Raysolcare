@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "535230733020",
+    "firebase_url": "https://raysolcare.firebaseio.com",
+    "project_id": "raysolcare",
+    "storage_bucket": "raysolcare.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535230733020:android:121b6d8aff9ee760",
+        "android_client_info": {
+          "package_name": "com.mobraysol.mobashshir.raysol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "535230733020-gg6aso8f53kg1tpjcmgr1go36hrv5sn8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobraysol.mobashshir.raysol",
+            "certificate_hash": "024441b40c91aa47b47d1a670bbfa26cdf596734"
+          }
+        },
+        {
+          "client_id": "535230733020-kmqboob9hjauote758t6jc9qfa8q36fr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobraysol.mobashshir.raysol",
+            "certificate_hash": "86db17388521c6787e21ce631706c2a08814442f"
+          }
+        },
+        {
+          "client_id": "535230733020-d4hgcmfb9jm96o3340eftojs34u2qs1g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobraysol.mobashshir.raysol",
+            "certificate_hash": "193abe245ba13d9d299508c083eec1317c9511fe"
+          }
+        },
+        {
+          "client_id": "535230733020-r5a4r4f08iqg9aigsa3g982dsv2km2iq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCogQrAcZgXopRmMt6Tks-9jP4iQtfvHGo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "535230733020-r5a4r4f08iqg9aigsa3g982dsv2km2iq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

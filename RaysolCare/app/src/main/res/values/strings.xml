@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">RaySol</string>
+
+    <string name="bulleted_list">
+        <li> --First item</li>\n
+        <li>--Second item</li>\n
+        <li>--Third item</li>
+    </string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="whychooseus"><u>Why Choose Us:-</u></string>
+
+    <string-array name="spinnerdefault">
+        <item>Choose Pincode</item>
+        <item>Munger Fort -811201</item>
+        <item>Belan Baazar-811201</item>
+        <item>PurabSarai  -811201</item>
+        <item>Munger Town -811201</item>
+        <item>Jamalpur Workshop -811201</item>
+        <item>Basudeopur -811202</item>
+        <item>Bakerchowki -811202</item>
+        <item>BM Toki -811202</item>
+        <item>Bankharpur -811202</item>
+        <item>Benigir -811202</item>
+        <item>Farda -811202</item>
+        <item>Heru Diyara -811202</item>
+        <item>Singhiya -811202</item>
+        <item>Taufir -811202</item>
+        <item>Tikarampur -811202</item>
+        <item>Shankarpur -811202</item>
+        <item>Shivkund -811202</item>
+        <item>Bariyarpur -811211</item>
+        <item>Nawagorhi -811211</item>
+        <item>Ghorghat -811211</item>
+        <item>Kalyanpur -811211</item>
+        <item>Lohchi -811211</item>
+        <item>Maheshpur -811211</item>
+        <item>Dharaira -811212</item>
+        <item>Itwa -811212</item>
+        <item>Tola Bangalwa -811212</item>
+        <item>Haweli kharagpur -811213</item>
+        <item>Banhara -811213</item>
+        <item>Khaira -811213</item>
+        <item>Gangta Mod -811213</item>
+        <item>Tetia Bambar -811213</item>
+        <item>Jamalpur -811214</item>
+        <item>Pattam -811214</item>
+        <item>Safiabad -811214</item>
+        <item>Halimpur -811214</item>
+        <item>Ithari -811214</item>
+        <item>Asarganj -813201</item>
+        <item>Tarapur -813221</item>
+        <item>Ghazipur -813221</item>
+        <item>Sangrampur -813212</item>
+        <item>Lakhisrai Town -811311</item>
+        <item>Lakhisrai Court -811311</item>
+        <item>Abhaypur - 811112</item>
+        <item>Surajgarah -811106</item>
+        <item>Jamui Town -811307</item>
+        <item>Jamui Court -811307</item>
+        <item>Bhagalpur Town -812001</item>
+        <item>Bhagalpur City -812002</item>
+        <item>Sultanganj -813213</item>
+        <item>TNB College Bhagalpur -812007</item>
+        <item>Begusarai Town -851101</item>
+        <item>Begusarai Court -851101</item>
+        <item>Khagariya Town -851204</item>
+
+    </string-array>
+</resources>

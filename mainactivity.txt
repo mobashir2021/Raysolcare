@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mobraysol.mobashshir.raysol.MainActivity"
+    android:id="@+id/mainactivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/linearbuttons">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="My Profiles"
+                android:background="@android:color/white"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="Bookings"/>
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/linearbuttons">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/raysolcare">
+            </ImageView>
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Customer Helpline"
+                    android:gravity="center"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="18dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="9852559945"
+                    android:gravity="center"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:layout_marginTop="-30dp"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+                <ViewFlipper
+                    android:layout_width="match_parent"
+                android:layout_height="150dp"
+
+                android:id="@+id/mainviewflipper">
+
+                </ViewFlipper>
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    android:background="@android:color/white">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Why Choose Us:-"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textSize="25dp"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="#Skilled Professional"
+                            android:textColor="@android:color/black"
+                            android:textSize="15dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="#Value for Money"
+                            android:textColor="@android:color/black"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="#On Time Services"
+                            android:textColor="@android:color/black"
+                            android:textSize="15dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="#Customer Satisfaction"
+                            android:textColor="@android:color/black"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal">
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/imagesaircondition"
+                        android:text="Ac Repair"
+                        android:gravity="bottom|center_horizontal"
+                        android:layout_margin="3dp"
+                        android:textStyle="bold"
+                        android:textSize="2dp"
+                        android:textColor="@android:color/black"
+                        />
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/newraysolcarerefrigerator"
+                        android:text="Refrigerator"
+                        android:layout_margin="2dp"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:gravity="bottom|center_horizontal"
+                        android:textColor="@android:color/black"/>
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/imagesaircooler"
+                        android:text="Aircooler"
+                        android:layout_margin="2dp"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:gravity="bottom|center_horizontal"
+                        android:textColor="@android:color/black"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal">
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="80dp"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:background="@drawable/imagesmicrooven"
+                        android:text="Micro oven"
+                        android:gravity="bottom|center_horizontal"
+                        android:layout_margin="2dp"
+                        android:textColor="@android:color/black"/>
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/newraysolwashingmachineother"
+                        android:text="Washing Machine"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:gravity="bottom|center_horizontal"
+                        android:layout_margin="2dp"
+                        android:textColor="@android:color/black"/>
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/imageswatercooler"
+                        android:text="Water Cooler"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:gravity="bottom|center_horizontal"
+                        android:layout_margin="2dp"
+                        android:textColor="@android:color/black"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/raysolcare">
+            </ImageView>
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Customer Helpline"
+                    android:gravity="center"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="18dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="9852559945"
+                    android:gravity="center"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:layout_marginTop="-30dp"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_weight="7"
+        >
+
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+
+            android:id="@+id/mainviewflipper">
+
+        </ViewFlipper>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="bottom">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/mainbookinghistory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:layout_weight="1"
+                android:text="Bookings" />
+
+            <Button
+                android:id="@+id/mainmyprofile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:layout_weight="1"
+                android:text="My Profile" />
+        </LinearLayout>
+    </RelativeLayout>-->
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/navigation_menu"
+        android:layout_gravity="start">
+
+    </android.support.design.widget.NavigationView>
+
+
+</android.support.v4.widget.DrawerLayout>
+

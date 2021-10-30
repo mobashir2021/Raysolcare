@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookinghistoryActivity"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="@drawable/whraysolbiglogo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/norecordbooking"
+
+            android:textSize="22sp"
+            android:text="       No Booking History found"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/bookinghistorylistview">
+
+    </ListView>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:gravity="bottom"
+        android:layout_weight="2">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/bookinghome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:layout_weight="0.5"
+                android:text="Home" />
+
+            <Button
+
+                android:layout_width="wrap_content"
+                android:id="@+id/bookingmyprofile"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:layout_weight="0.5"
+                android:text="My Profile" />
+            <Button
+
+                android:layout_width="wrap_content"
+                android:id="@+id/bookingservices"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:layout_weight="0.5"
+                android:text="Services" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mobraysol.mobashshir.raysol.Login"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/mainblue"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/whraysolbiglogo" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="90dp"
+        android:id="@+id/loginusername"
+        android:hint="Username"
+        android:layout_gravity="center_horizontal"
+        android:inputType="text"
+
+        />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:id="@+id/loginpassword"
+        android:hint="Password"
+        android:layout_gravity="center_horizontal"
+        android:inputType="textPassword"
+
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Login"
+        android:id="@+id/loginbutton"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_gravity="center_horizontal"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not a member yet?"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:paddingTop="60dp"
+            android:paddingLeft="20dp"/>
+        <TextView
+            android:id="@+id/loginlinkregister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:linksClickable="true"
+            android:text="Register here"
+            android:textSize="20sp"
+            android:paddingTop="60dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="10dp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

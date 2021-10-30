@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/procontactus"
+        android:title="Contact Us" />
+    <item android:id="@+id/proaboutraysolcare"
+        android:title="About RaySolcare" />
+    <item android:id="@+id/protermsandcondition"
+        android:title="Terms &amp; Conditions" />
+    <item android:id="@+id/proprivacypolicy"
+        android:title="Privacy Policy" />
+    <item android:id="@+id/propaymentonline"
+        android:title="Payment Online" />
+    <item android:id="@+id/proshare"
+        android:title="Share" />
+    <item android:id="@+id/prorateus"
+        android:title="Rate Us" />
+
+
+
+</menu>

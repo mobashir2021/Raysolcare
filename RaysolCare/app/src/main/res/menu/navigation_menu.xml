@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/homemenu"
+        android:title="Home" />
+    <item android:id="@+id/chooseservicemenu"
+        android:title="Choose Services" />
+    <item android:id="@+id/bookingmenu"
+        android:title="Booking History" />
+    <item android:id="@+id/profilemenu"
+        android:title="My Profile" />
+    <item android:id="@+id/contactusmenu"
+        android:title="Contact Us" />
+
+</menu>
